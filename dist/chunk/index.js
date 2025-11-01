@@ -1159,14 +1159,30 @@ class G {
             this.live2DMgr.tapEvent(n, a),
             (null === (i = this.live2DMgr) || void 0 === i ? void 0 : i.model.hitTest(N, n, a)) && window.dispatchEvent(new Event("live2d:tapbody"));
     }
-    followPointer(e) {
-        var i;
-        const s = this.canvas.getBoundingClientRect(),
-            { vx: n, vy: a } = j(e.clientX, e.clientY, s.left + s.width / 2, s.top + s.height / 2, window.innerWidth, window.innerHeight);
-        t.trace("onMouseMove device( x:" + e.clientX + " y:" + e.clientY + " ) view( x:" + n + " y:" + a + ")"),
-            this.dragMgr.setPoint(n, a),
-            (null === (i = this.live2DMgr) || void 0 === i ? void 0 : i.model.hitTest(N, n, a)) && window.dispatchEvent(new Event("live2d:hoverbody"));
+followPointer(e) {
+    const s = this.canvas.getBoundingClientRect();
+    // 计算指针相对位置
+    const { vx: n, vy: a } = j(
+        e.clientX,
+        e.clientY,
+        s.left + s.width / 2,
+        s.top + s.height / 2,
+        window.innerWidth,
+        window.innerHeight
+    );
+    t.trace(`onMouseMove device( x:${e.clientX} y:${e.clientY} ) view( x:${n} y:${a})`);
+    this.dragMgr.setPoint(n, a);
+
+    // 关键修复：先判断 live2DMgr 和 model 是否存在，再调用 hitTest
+    if (this.live2DMgr && this.live2DMgr.model) {
+        if (this.live2DMgr.model.hitTest(N, n, a)) {
+            window.dispatchEvent(new Event("live2d:hoverbody"));
+        }
+    } else {
+        // 可选：打印调试信息，确认模型是否未加载
+        t.warn("live2DMgr 或 model 尚未初始化，跳过 hitTest 检测");
     }
+}
     lookFront() {
         this.dragMgr.setPoint(0, 0);
     }
