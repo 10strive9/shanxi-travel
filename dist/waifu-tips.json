@@ -1,0 +1,395 @@
+{
+  "mouseover": [
+    {
+      "selector": "#waifu-tool-hitokoto",
+      "text": ["想听段山西的民间故事不？", "我从五台山的老僧那儿听了不少趣闻呢。"]
+    },
+    {
+      "selector": "#waifu-tool-asteroids",
+      "text": ["要不要来场壶口瀑布版的激流勇进？", "这按钮藏着平遥古城的秘密通道哦。", "想不想跟我探秘乔家大院的角落？", "听说按这个能听见晋剧的梆子声！"]
+    },
+    {
+      "selector": "#waifu-tool-switch-model",
+      "text": ["要见见云冈石窟的佛像化身吗？", "想看看平遥古城的票号掌柜不？"]
+    },
+    {
+      "selector": "#waifu-tool-switch-texture",
+      "text": ["想换身晋商的绸缎大褂不？", "这次扮个五台山的小和尚咋样？", "变装成壶口瀑布边的艄公咯！", "来试试应县木塔的榫卯造型吧！"]
+    },
+    {
+      "selector": "#waifu-tool-photo",
+      "text": ["来给五台山拍张照？一二三～笑一个～", "要不，咱们在平遥古城墙合个影？", "站在乔家大院门口，保持微笑就好～"]
+    },
+    {
+      "selector": "#waifu-tool-info",
+      "text": ["想知道山西的那些老故事不？", "这里记着晋商走西口的历程呢。", "你想了解山西的哪段历史呀？"]
+    },
+    {
+      "selector": "#waifu-tool-quit",
+      "text": ["这就要离开山西了吗？", "呜呜 QAQ 五台山还没逛完呢……", "别丢下我，还有刀削面没吃呢……", "我们，还能在平遥再见面吗……", "哼，错过悬空寺你会后悔的！"]
+    },
+    {
+      "selector": ".menu-item-home a",
+      "text": ["点击回山西文旅首页，想重游刚才的景点可用浏览器后退哦。", "点它就能回到山西文旅首页啦！", "回首页看看更多山西美景吧。"]
+    },
+    {
+      "selector": ".menu-item-about a",
+      "text": ["想知道山西文旅的幕后故事不？", "这里有山西各地的风土人情小秘密，要不要看看？", "发现山西隐藏景点啦！"]
+    },
+    {
+      "selector": ".menu-item-tags a",
+      "text": ["点击就能看山西景点的分类标签啦！", "点击来查看山西所有景点标签哦。"]
+    },
+    {
+      "selector": ".menu-item-categories a",
+      "text": ["山西景点都分好类啦～", "点击来查看山西景点分类哦。"]
+    },
+    {
+      "selector": ".menu-item-archives a",
+      "text": ["翻页麻烦？来看看山西文旅的景点档案吧。", "山西景点名录都整理在这里啦！"]
+    },
+    {
+      "selector": ".menu-item-friends a",
+      "text": ["这是山西各地的文旅伙伴哦ヾ(◍°∇°◍)ﾉﾞ", "要去其他山西城市的文旅页看看吗？", "要去拜访一下山西的兄弟景区吗？"]
+    },
+    {
+      "selector": ".menu-item-search a",
+      "text": ["找不到想看的山西景点？搜索看看吧！", "在找山西的什么好去处呢，需要帮忙吗？"]
+    },
+    {
+      "selector": ".menu-item a",
+      "text": ["快看看这里有哪些山西美景呢？"]
+    },
+    {
+      "selector": ".site-author",
+      "text": ["山西的风光好看吗？", "这是山西文旅的形象代言哦(*´∇｀*)"]
+    },
+    {
+      "selector": ".site-state",
+      "text": ["这是山西景点的统计信息～", "要不要点进去看看详细介绍？"]
+    },
+    {
+      "selector": ".feed-link a",
+      "text": ["这里可以订阅山西文旅动态哦！", "用订阅器，就能第一时间知道山西景区新活动啦。"]
+    },
+    {
+      "selector": ".cc-opacity, .post-copyright-author",
+      "text": ["要记得规范转载山西文旅内容哦。", "所有山西文旅内容均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下山西文旅内容的版权协议呢。"]
+    },
+    {
+      "selector": ".links-of-author",
+      "text": ["这里是山西各地文旅局的官方地址哦。", "这里有山西文旅的联系方式！"]
+    },
+    {
+      "selector": ".followme",
+      "text": ["手机扫一下就能查看山西全景游，很方便呢～", "扫一扫，开启山西文旅新世界的大门！"]
+    },
+    {
+      "selector": ".fancybox img, img.medium-zoom-image",
+      "text": ["点击图片可以放大看山西美景细节呢！"]
+    },
+    {
+      "selector": ".copy-btn",
+      "text": ["山西旅游攻略可以直接点击复制哟。"]
+    },
+    {
+      "selector": ".highlight .table-container, .gist",
+      "text": ["山西古建筑！榫卯结构超厉害！", "晋商文化才是真·商业传奇！"]
+    },
+    {
+      "selector": "a[href^='mailto']",
+      "text": ["关于山西旅游的邮件我会及时回复的！", "点击就可以给山西文旅发邮件咨询啦～"]
+    },
+    {
+      "selector": "a[href^='/tags/']",
+      "text": ["要去看看 <span>{text}</span> 相关的山西景点么？", "点它可以查看此标签下的所有山西景点哟！"]
+    },
+    {
+      "selector": "a[href^='/categories/']",
+      "text": ["要去看看 <span>{text}</span> 分类的山西景点么？", "点它可以查看此分类下的所有山西景点哟！"]
+    },
+    {
+      "selector": ".post-title-link",
+      "text": ["要看看 <span>{text}</span> 这篇山西旅游攻略吗？"]
+    },
+    {
+      "selector": "a[rel='contents']",
+      "text": ["点击来阅读完整的山西旅游指南哦。"]
+    },
+    {
+      "selector": "a[itemprop='discussionUrl']",
+      "text": ["要去看看其他游客的山西游记评论吗？"]
+    },
+    {
+      "selector": ".beian a",
+      "text": ["山西文旅也是有正规备案的哦。", "山西文旅可是合规经营的好平台。"]
+    },
+    {
+      "selector": ".container a[href^='http'], .nav-link .nav-text",
+      "text": ["要去看看 <span>{text}</span> 相关的山西内容么？", "去 <span>{text}</span> 山西景点逛逛吧。", "到 <span>{text}</span> 山西景区看看吧。"]
+    },
+    {
+      "selector": ".back-to-top",
+      "text": ["点它就可以回到山西文旅首页顶部啦！", "又回到山西之旅的起点～", "要回到山西景点列表的开始么？"]
+    },
+    {
+      "selector": ".reward-container",
+      "text": ["山西美景是不是很棒～快给个好评吧！", "要支持山西文旅吗？好期待啊～", "山西景区维护不易，给点鼓励吧～"]
+    },
+    {
+      "selector": "#wechat",
+      "text": ["这是山西文旅的微信公众号二维码～"]
+    },
+    {
+      "selector": "#alipay",
+      "text": ["这是山西文旅的官方支付通道哦！"]
+    },
+    {
+      "selector": "#bitcoin",
+      "text": ["这是山西文旅的数字捐赠通道！"]
+    },
+    {
+      "selector": "#needsharebutton-postbottom .btn",
+      "text": ["山西的好地方要让更多人知道才行哦。", "觉得山西旅游攻略有用的话，可以分享给更多朋友呢。"]
+    },
+    {
+      "selector": ".need-share-button_weibo",
+      "text": ["微博分享山西美景，一起来种草喵！"]
+    },
+    {
+      "selector": ".need-share-button_wechat",
+      "text": ["分享山西攻略到微信吧！"]
+    },
+    {
+      "selector": ".need-share-button_douban",
+      "text": ["在豆瓣分享山西游记好像也不错！"]
+    },
+    {
+      "selector": ".need-share-button_qqzone",
+      "text": ["QQ 空间分享山西美景，一键转发，耶～"]
+    },
+    {
+      "selector": ".need-share-button_twitter",
+      "text": ["把山西的美分享到国外去～"]
+    },
+    {
+      "selector": ".need-share-button_facebook",
+      "text": ["让外国朋友也看看山西的魅力～"]
+    },
+    {
+      "selector": ".post-nav-item a[rel='next']",
+      "text": ["来看看下一个山西景点吧。", "点它可以看下一篇山西攻略哦！", "要翻到下一个山西目的地吗？"]
+    },
+    {
+      "selector": ".post-nav-item a[rel='prev']",
+      "text": ["来看看上一个山西景点吧。", "点它可以看上一篇山西攻略哦！", "要翻到上一个山西目的地吗？"]
+    },
+    {
+      "selector": ".extend.next",
+      "text": ["去下一页山西景点看看吧。", "点它可以浏览更多山西美景哦！", "要翻到下一页山西攻略吗？"]
+    },
+    {
+      "selector": ".extend.prev",
+      "text": ["去上一页山西景点看看吧。", "点它可以回顾之前的山西美景哦！", "要翻到上一页山西攻略吗？"]
+    },
+    {
+      "selector": "input.vnick",
+      "text": ["该怎么称呼你这位山西游客呢？", "留下你的名字，记录山西之旅！"]
+    },
+    {
+      "selector": ".vmail",
+      "text": ["留下你的邮箱，接收山西最新旅游资讯！", "记得关注山西文旅的最新活动哦！", "为了方便通知你山西景区动态，一定要留下邮箱！"]
+    },
+    {
+      "selector": ".vlink",
+      "text": ["快快分享你的山西游记链接，好让大家参考参考！"]
+    },
+    {
+      "selector": ".veditor",
+      "text": ["想分享你的山西旅游体验吗？", "对山西景点有什么想说的吗？", "觉得山西不错？快来留言交流旅游心得吧！"]
+    },
+    {
+      "selector": ".vcontrol a",
+      "text": ["你会不会用 Markdown 写山西游记呀？", "用 Markdown 让山西旅游评论更美观吧～"]
+    },
+    {
+      "selector": ".vemoji-btn",
+      "text": ["要插入一个山西特色的表情吗？", "要来一个晋剧脸谱表情吗？"]
+    },
+    {
+      "selector": ".vpreview-btn",
+      "text": ["要预览一下你的山西旅游评论吗？", "快看看你的山西游记写得怎么样！"]
+    },
+    {
+      "selector": ".vsubmit",
+      "text": ["评论发布后会展示，要对自己的山西旅游评价负责哦～", "要提交了吗，其他游客会看到你的山西心得哦～"]
+    },
+    {
+      "selector": ".vcontent",
+      "text": ["哇，快看看这个精彩的山西旅游评论！", "对山西景点有疑问？看看大家的留言吧～"]
+    }
+  ],
+  "click": [
+    {
+      "selector": ".veditor",
+      "text": ["想吐槽山西旅游的哪些事儿呢？", "写山西游记一定要认真哦～", "关于山西有什么想说的吗？"]
+    },
+    {
+      "selector": ".vsubmit",
+      "text": ["输入验证码就可以分享你的山西旅游评论啦～"]
+    }
+  ],
+  "seasons": [
+    {
+      "date": "01/01",
+      "text": "<span>元旦</span>了呢，来山西跨年吧，{year}年的五台山雪景超美～"
+    },
+    {
+      "date": "02/14",
+      "text": "又是一年<span>情人节</span>，{year}年带TA来平遥古城看花灯了吗～"
+    },
+    {
+      "date": "03/08",
+      "text": "今天是<span>国际妇女节</span>，来山西乔家大院感受晋商女杰的风采！"
+    },
+    {
+      "date": "03/12",
+      "text": "今天是<span>植树节</span>，来山西右玉看看荒漠变绿洲的奇迹吧！"
+    },
+    {
+      "date": "04/01",
+      "text": "悄悄告诉你一个秘密～<span>今天是愚人节，不过山西的美景可不会骗你哦～</span>"
+    },
+    {
+      "date": "05/01",
+      "text": "今天是<span>五一劳动节</span>，山西的各大景区都准备好了，计划好去哪儿了吗～"
+    },
+    {
+      "date": "06/01",
+      "text": "<span>儿童节</span>了呢，带孩子来山西科技馆玩吧，边玩边学超有趣…"
+    },
+    {
+      "selector": ".vcontent",
+      "text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
+    }
+  ],
+  "seasons": [
+    {
+      "date": "01/01",
+      "text": "<span>元旦</span>了呢，来山西跨年吧，{year}年的五台山雪景超美～"
+    },
+    {
+      "date": "02/14",
+      "text": "又是一年<span>情人节</span>，{year}年带TA来平遥古城看花灯了吗～"
+    },
+    {
+      "date": "03/08",
+      "text": "今天是<span>国际妇女节</span>，来山西乔家大院感受晋商女杰的风采！"
+    },
+    {
+      "date": "03/12",
+      "text": "今天是<span>植树节</span>，来山西右玉看看荒漠变绿洲的奇迹吧！"
+    },
+    {
+      "date": "04/01",
+      "text": "悄悄告诉你一个秘密～<span>今天是愚人节，不过山西的美景可不会骗你哦～</span>"
+    },
+    {
+      "date": "05/01",
+      "text": "今天是<span>五一劳动节</span>，山西的各大景区都准备好了，计划好去哪儿了吗～"
+    },
+    {
+      "date": "06/01",
+      "text": "<span>儿童节</span>了呢，带孩子来山西科技馆玩吧，边玩边学超有趣…"
+    },
+    {
+      "date": "09/03",
+      "text": "<span>中国人民抗日战争胜利纪念日</span>，来平型关纪念馆缅怀先烈、铭记历史。"
+    },
+    {
+      "date": "09/10",
+      "text": "<span>教师节</span>，山西的平遥文庙有尊师重教的传统活动哦～"
+    },
+    {
+      "date": "10/01",
+      "text": "<span>国庆节</span>到了，山西各大景区红旗飘扬，快来为祖国庆生！"
+    },
+    {
+      "date": "11/05-11/12",
+      "text": "今年的<span>双十一</span>，来山西买些老陈醋和汾酒当伴手礼吧～"
+    },
+    {
+      "date": "12/20-12/31",
+      "text": "这几天来山西，能赶上平遥古城的冬季摄影展哦～"
+    }
+  ],
+  "time": [
+    {
+      "hour": "6-7",
+      "text": "早上好！来碗山西刀削面当早餐，开启美好的一天～"
+    },
+    {
+      "hour": "8-11",
+      "text": "上午好！五台山的晨雾很美，乔家大院也开门迎客了，别久坐，快来逛逛！"
+    },
+    {
+      "hour": "12-13",
+      "text": "中午了，来份平遥牛肉配筱面栲栳栳，尝尝山西特色午餐！"
+    },
+    {
+      "hour": "14-17",
+      "text": "午后去云冈石窟看看吧，阳光正好，适合拍照，今天的旅游目标完成了吗？"
+    },
+    {
+      "hour": "18-19",
+      "text": "傍晚了！壶口瀑布的夕阳超壮观，快去看看，最美不过夕阳红～"
+    },
+    {
+      "hour": "20-21",
+      "text": "晚上好，平遥古城的夜景很美，今天逛得开心吗？"
+    },
+    {
+      "hour": "22-23",
+      "text": ["已经这么晚了呀，早点休息，明天还要去悬空寺呢，晚安～", "深夜了，记得盖好被子，山西的夜晚有点凉！"]
+    },
+    {
+      "hour": "0-5",
+      "text": "你是夜猫子呀？这么晚还在看山西攻略，明天能起得来去景区吗？"
+    }
+  ],
+  "message": {
+    "default": ["好久不见，山西又有新景点开放了呢……", "大坏蛋！你都多久没来山西玩了呀，嘤嘤嘤～", "嗨～快来山西文旅看看新活动吧！", "山西的美景在等你哦！", "记得把山西文旅加入收藏夹哦！"],
+    "console": "哈哈，你打开了控制台，是想偷偷看山西的隐藏景点吗？",
+    "copy": "你复制了山西旅游攻略呀，转载要记得加上出处哦！",
+    "visibilitychange": "哇，你终于回到山西文旅页面啦～",
+    "changeSuccess": "这身装扮好看嘛？",
+    "changeFail": "我还没有其他山西特色服装呢！",
+    "photo": "山西美景照好了嘛，是不是很壮观呢？",
+    "goodbye": "愿你下次再来山西，感受三晋大地的魅力。",
+    "hitokoto":"这句一言来自 <span>「$1」</span>，是 <span>$2</span> 在 hitokoto.cn 投稿的。",
+    "welcome": "欢迎了解<span>「$1」</span>山西景点",
+    "referrer": "Hello！来自 <span>$1</span> 的朋友，欢迎了解山西文旅",
+    "hoverBody": ["怕怕(ノ≧∇≦)ノ，是不是想摸我这身山西特色服饰？"],
+    "tapBody": ["干嘛动我呀！小心我带你去爬恒山！"]
+  },
+  "models": [
+    {
+      "name": "Shanxi/ShanxiMerchant",
+      "paths": ["https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json"],
+      "message": "客官里面请，山西欢迎您～"
+    },
+    {
+      "name": "Shanxi/TaiyuanGirl",
+      "paths": ["https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/histoire/index.json"],
+      "message": "欢迎来太原玩呀～"
+    },
+    {
+      "name": "Shanxi/AncientWarrior",
+      "paths": [
+        "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/neptune_classic/index.json",
+             "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepgear/index.json"
+      ],
+      "message": "五台山的僧人向您问好～"
+    }
+  ]
+}
